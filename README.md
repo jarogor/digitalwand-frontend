@@ -1,4 +1,6 @@
 # digitalwand-frontend
-DigitalWand frontend test-solution
+DigitalWand frontend test-solution.
 
-[Origin](https://gitlab.ddemo.ru/a.kosyanenko/tars)
+- [Страница демонстрации](dev/index.html)
+
+- [Источник исходников](https://gitlab.ddemo.ru/a.kosyanenko/tars)

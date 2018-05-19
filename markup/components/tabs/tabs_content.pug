@@ -1,0 +1,5 @@
+ul.tabs-content
+     each item in tabs.items
+         li.tabs-content__item(data-id=item.id, class=item.active ? 'tabs-content__item_active':'')
+             h1= item.name
+             p.tabs-content__body= item.content

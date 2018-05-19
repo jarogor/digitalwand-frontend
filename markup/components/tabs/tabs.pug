@@ -1,0 +1,3 @@
+ul.tabs
+     each item in tabs.items
+         li.tabs__item(data-id=item.id, class=item.active ? 'tabs__item_active':'')= item.name

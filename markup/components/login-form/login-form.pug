@@ -1,0 +1,14 @@
+.login-form
+    .login-form__item
+        input(
+            type="text"
+            placeholder= loginForm.user.label
+            class= "login-form__input login-form__email"
+        )
+    .login-form__item
+        input(
+            type="password"
+            class= "login-form__input login-form__password"
+        )
+    .login-form__item
+        button.login-form__submit= loginForm.submit.label

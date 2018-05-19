@@ -1,0 +1,9 @@
+.slider
+    .slider__content
+        ul.slider__box
+            each img in slider.items
+                li.slider__item
+                    img(src= img.url).slider__image
+        .slider__nav.slider__previous
+        .slider__nav.slider__next
+        .slider__decoration

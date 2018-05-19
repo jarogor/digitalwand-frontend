@@ -1,0 +1,16 @@
+.nav-hamburger
+    .nav-hamburger__icon
+        <div></div>
+        <div></div>
+        <div></div>
+.nav
+    .nav__close
+    each menuItems, typeMenu in nav
+        ul.nav__menu(class="nav__" + typeMenu)
+            each item in menuItems
+                li.nav__item
+                    if item.label
+                        = item.label + ': '
+                    if item.icon
+                        +icon({ icon: item.icon })
+                    a(href= item.link class= item.className)= item.text

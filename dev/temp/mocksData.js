@@ -1,7 +1,6 @@
 'header': {
-        default: {
-            title: 'Главная страница'
-        }
+        title: 'Главная страница',
+        logoPath: 'static/img/general/logotype.jpg'
     }
 ,
 

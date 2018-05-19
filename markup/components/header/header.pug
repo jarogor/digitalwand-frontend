@@ -5,7 +5,8 @@ include ../icon/icon
     include ../nav/nav
 
     .header__content
-        +b('a').header__logotype(href="/", title= header.default.title)
+        +b('a').header__logotype(href="/", title= header.title)
+            img(src= header.logoPath alt= header.title)
 
         include ../tabs/tabs
         include ../search-form/search-form

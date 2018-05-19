@@ -1,0 +1,13 @@
+extends ../layouts/default
+
+block vars
+    -pageSettings.title = 'Главная';
+
+block content
+    include ../components/slider/slider
+    include ../components/tabs/tabs_content
+
+block popup
+    include ../components/popup/popup
+    include ../components/login-form/login-form
+

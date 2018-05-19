@@ -1,0 +1,12 @@
+include ../icon/icon
+
++b.HEADER.header
+
+    include ../nav/nav
+
+    .header__content
+        +b('a').header__logotype(href="/", title= header.default.title)
+
+        include ../tabs/tabs
+        include ../search-form/search-form
+

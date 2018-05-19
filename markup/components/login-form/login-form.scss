@@ -1,0 +1,41 @@
+.login-form {
+  display: none;
+
+  &__item {
+    margin: 0 auto $side-margin ;
+    text-align: center;
+  }
+
+  &__input {
+    width: 100%;
+    padding: 10px 0;
+    border: 0;
+    border-bottom: 1px solid $color-middle-grey;
+    outline: 0;
+    color: $color-text-base;
+
+    &::placeholder {
+      color: $color-text-grey;
+    }
+
+    &.error {
+      color: $color-pink;
+      border-bottom-color: $color-pink;
+    }
+  }
+
+  &__submit {
+    background: $color-bg;
+    border: 1px solid $color-blue;
+    padding: 10px 50px;
+    color: $color-blue;
+    cursor: pointer;
+    outline: 0;
+
+    &:hover,
+    &:focus {
+      color: $color-pink;
+      border-color: $color-pink;
+    }
+  }
+}
